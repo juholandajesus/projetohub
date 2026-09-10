@@ -6,6 +6,8 @@ import {
 } from '../dados';
 
 const CLASSE_STATUS: Record<StatusCheckpoint, string> = {
+  a_convidar: 'etq-cinza',
+  convite_enviado: 'etq-ambar',
   agendado: 'etq-azul',
   realizado: 'etq-verde',
   remarcado: 'etq-ambar',
